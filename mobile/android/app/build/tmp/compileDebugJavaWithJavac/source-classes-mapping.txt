@@ -1,0 +1,17 @@
+com/mobile2/BuildConfig.java
+ com.mobile2.BuildConfig
+com/mobile2/MainApplication.java
+ com.mobile2.MainApplication
+ com.mobile2.MainApplication$1
+com/mobile2/generated/BasePackageList.java
+ com.mobile2.generated.BasePackageList
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/mobile2/ReactNativeFlipper.java
+ com.mobile2.ReactNativeFlipper
+ com.mobile2.ReactNativeFlipper$1
+ com.mobile2.ReactNativeFlipper$2
+ com.mobile2.ReactNativeFlipper$2$1
+com/mobile2/MainActivity.java
+ com.mobile2.MainActivity
+ com.mobile2.MainActivity$1

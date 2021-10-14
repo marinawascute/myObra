@@ -1,9 +1,8 @@
-import express from 'express';
+import express, { Router } from 'express';
 
 import {signup ,login ,isAuth } from '../controllers/auth.js';
 
-const router = express.router;
-
+const router =  Router()
 router.post('/login', login);
 
 router.post('/signup', signup);

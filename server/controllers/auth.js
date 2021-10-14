@@ -23,6 +23,7 @@ const signup = (req, res, next) => {
                         email: req.body.email,
                         name: req.body.name,
                         password: passwordHash,
+                        cpf: req.body.cpf,
                     }))
                     .then(() => {
                         res.status(200).json({message: "user created"});

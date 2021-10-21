@@ -23,6 +23,11 @@ const User = sequelize.define('users',{
      cpf :{
          type : Sequelize.INTEGER,
          allowNull : false
+     },
+     isAdmin:{
+      type: Sequelize.STRING,
+      defaultValue: false,
+      allowNull : false
      }
     });
     export default User;

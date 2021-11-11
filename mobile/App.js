@@ -1,15 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Routes from './Routes';
+import { NavigationContainer } from '@react-navigation/native';
+import AuthScreen from './screens/AuthScreen';
 
-import { AuthScreen } from './screens';
-
-export default function App() {
+export default function App(navigation) {
   return (
-    <View style={styles.container}>
-      <AuthScreen />
-      <StatusBar style="auto" />
-    </View>
+      <><NavigationContainer>
+      <Routes navigation />
+    </NavigationContainer></>
+   
   );
 };
 
